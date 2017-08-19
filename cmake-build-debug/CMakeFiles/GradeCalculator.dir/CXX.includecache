@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/e/CPP/CLion/GradeCalculator/header/Menu.h
+iostream
+-
+string
+-
+
+/cygdrive/e/CPP/CLion/GradeCalculator/main.cpp
+iostream
+-
+string
+-
+header/Menu.h
+/cygdrive/e/CPP/CLion/GradeCalculator/header/Menu.h
+
+/cygdrive/e/CPP/CLion/GradeCalculator/src/Menu.cpp
+iostream
+-
+string
+-
+../header/Menu.h
+/cygdrive/e/CPP/CLion/GradeCalculator/header/Menu.h
+
